@@ -1,2 +1,9 @@
 *.out
+CMakeFiles/
+CmakeCache.txt
+Makefile
+cmake_*
+runTests
+CMakeCa*
+
 
