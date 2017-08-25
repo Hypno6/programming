@@ -7,3 +7,6 @@ include_directories(${GTEST_INCLUDE_DIRS})
 # Link runTests with what we want to test and the GTest and pthread library
 add_executable(runTests SoundexTest.cpp)
 target_link_libraries(runTests ${GTEST_LIBRARIES} pthread)
+
+SET(CMAKE_CXX_FLAGS "-std=c++0x")
+
